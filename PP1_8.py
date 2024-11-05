@@ -19,7 +19,7 @@ def q3():
   #Write Assignment code here
 
   number1 = input("Enter a number: ")
-  bool1 = (int(number1) > 0 and int(number1) < 10)
+  bool1 = (float(number1) >= 0 and float(number1) <= 10)
   print(bool1)
 
 def q4():
@@ -35,7 +35,7 @@ def q5():
 
   integer1 = int(input("Enter an integer: "))
   bool1 = integer1 % 2 == 0
-  print(f"The integer {integer1} is {bool1}")
+  print(f"The integer {integer1} is {bool1}.")
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
