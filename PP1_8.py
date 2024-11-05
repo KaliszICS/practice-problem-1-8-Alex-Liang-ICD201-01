@@ -34,7 +34,7 @@ def q5():
 
   integer1 = int(input("Enter an integer: "))
   bool1 = integer1 % 2 == 0
-  print(f"The integer {num1} is {bool1}")
+  print(f"The integer {integer1} is {bool1}")
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
