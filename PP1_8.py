@@ -10,9 +10,10 @@ def q1():
 def q2():
   #Write Assignment code here
 
-  integer1 = input("Input an integer: ")
-  bool1 = (int(integer1) > 0)
+  integer1 = input("Enter an integer: ")
+  bool1 = (int(integer1) > 0) or (int(integer1) < 0)
   print(bool1)
+  
 
 def q3():
   #Write Assignment code here
